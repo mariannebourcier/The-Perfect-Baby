@@ -1,0 +1,168 @@
+.header {
+    display: flex;
+    background-color: #323449;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+
+.logobaby {
+    height: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: -10px;
+    margin-left: 50px;
+}
+
+.logo {
+    height: 150px;
+
+}
+
+.header-content {
+    display: flex;
+    background-color: #3d405b ;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+    padding-left: 200px;
+    padding-right: 200px;
+    align-items: flex-start;
+
+}
+
+button {
+    height: 40px;
+    color: #3d405b;
+    background-color: #81B29A;
+    padding: 10px;
+    transition-duration: 0.4s;
+    border: solid #323449;
+    font-weight: 700;
+    font-family: 'Libre Baskerville', serif;
+
+}
+button:hover {
+    background-color: #F4F1DE;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: #F4F1DE;
+    font-family: 'Libre Baskerville', sans-serif;
+    font-size: small;
+}
+
+li {
+    padding: 10px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.middle-container {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 300px;
+    padding-right: 300px;
+    background-color: #81B29A;
+    flex-direction: column;
+
+}
+
+.image {
+    height: 150px;
+    border-radius: 50%;
+    
+}
+
+h2 {
+    color: #F4F1DE;
+    font-family: 'Libre Baskerville', serif;
+}
+
+p {
+    color: #F4F1DE;
+    font-family: 'Libre Baskerville', sans-serif;
+}
+
+.middle-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #81B29A;
+    height: 50px;
+}
+
+.mode-images {
+    display: flex;
+    align-items: space-between;
+    justify-content: space-between;
+
+}
+
+.mode-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+
+
+.quote,
+.action {
+    background-color: #E07A5F;
+    height: 200px;
+    font-family: 'Libre Baskerville', serif;
+    color: #F4F1DE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quotes {
+    display: flex;
+    flex-direction: column;
+    background-color: lightsalmon;
+    padding: 50px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    width: 800px;
+}
+
+span {
+    font-weight: bold;
+}
+
+.action {
+    font-size: 20px;
+    flex-direction: column;
+}
+
+.second-button {
+    margin: 20px;
+}
+
+.footer {
+    background-color: #3d405b;
+    font-family: 'Libre Baskerville', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F4F1DE;
+    padding: 10px;
+}
